@@ -3,14 +3,14 @@
 }
 body,
 html {
-  background-color: #ffd0b4;
+  background-color: #ffffff;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
   margin: auto;
   color: black;
-  font-family: anybody;
+  font-family: 'Roboto slab', 'poppins';
   font-size: 15px;
 }
 
@@ -23,19 +23,19 @@ html {
   padding: auto;
 }
 img {
-  height: 100px;
-  width: 110px;
+  height: 150px;
+  width: 200px;
   border-radius: 50%;
 }
 .txt {
   height: auto;
   width: auto;
+  font-family: Roboto slab;
   font-weight: 800;
   border: 0px;
   border-radius: 10px;
   text-align: center;
   padding: 15px;
-  background-color: #afbbdd;
 }
 .container {
   width: 40%;
@@ -48,6 +48,7 @@ img {
   box-shadow: 0 0 40px rgba (8, 7, 16, 0.6);
 }
 form label {
+  font-family: poppins;
   font-weight: 500;
   font-size: 14px;
   position: relative;
@@ -60,6 +61,7 @@ input[type="username"] {
   caret-color: skyblue;
   width: 20vw;
   padding: 10px;
+  background-color: #e5e5e5;
   margin: 5px, 0, 20px, 0;
   display: inline-block;
   border: none;
@@ -71,12 +73,15 @@ label {
 }
 p{
     text-align: center;
+    font-family: poppins;
     font-size: 12px;
 }
 button {
-  font-size: 14px;
+  font-family: Roboto slab;
+  font-size: 15px;
+  font-weight: 600;
   cursor: pointer;
-  background-color: #041135;
+  background-color: #0a66c2;
   width: 20vw;
   border-radius: 5px;
   padding: 15px;
@@ -87,6 +92,12 @@ button {
 }
 button:hover {
   color: skyblue;
+}
+.btn2 {
+  background-color: #ffffff;
+  border: 2px solid #ea4335 !important;
+  color: #ea4335;
+
 }
 .fa {
   display: flex;
@@ -136,6 +147,7 @@ button:hover {
     border-radius: 5px;
 }
 .socials{
+    font-family: poppins;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,6 +161,7 @@ button:hover {
 .socials{
     display: block;
     align-items: center;
+    font-family: poppins;
     height: auto;
     width: auto;
     text-align: center;
