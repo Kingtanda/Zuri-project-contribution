@@ -48,6 +48,7 @@ img {
 
 label{
     font-family: poppins;
+    font-weight: 500;
     display: inline-block;
 }
 input[type="text"],

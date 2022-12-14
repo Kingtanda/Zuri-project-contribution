@@ -3,14 +3,14 @@
 }
 body,
 html {
-  background-color: #ffd0b4;
+  background-color: #ffffff;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
   margin: auto;
   color: black;
-  font-family: anybody;
+  font-family: "Roboto slab", "poppins";
   font-size: 15px;
 }
 
@@ -23,8 +23,8 @@ html {
   padding: auto;
 }
 img {
-  height: 100px;
-  width: 110px;
+  height: 150px;
+  width: 200px;
   border-radius: 50%;
 }
 .txt {
@@ -33,10 +33,8 @@ img {
   font-size: 30px;
   font-weight: 800;
   border: 0px;
-  border-radius: 10px;
   text-align: center;
   padding: 15px;
-  background-color: #afbbdd;
 }
 .fa {
     display: flex;
@@ -53,6 +51,7 @@ img {
 
   }
   p {
+    font-family: poppins;
     font-weight: 700;
   }
   .check {
